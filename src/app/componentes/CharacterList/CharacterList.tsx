@@ -43,11 +43,11 @@ export default function CharacterList() {
 
   return (
     <>
-      <h1 className='font-bold text-4xl mb-8 text-white'>Rick And Morty Characters</h1>
+      <h1 className='font-bold text-4xl mb-8 text-white'>Rick And Morty</h1>
       <input
         type="text"
         onChange={(e) => setSearch(e.target.value)}
-        className="p-2 px-4 rounded-xl text-zinc-400 font-bold w-60"
+        className="p-2 px-4 rounded-xl text-black-400 font-bold w-60 bg-white"
         placeholder="Pesquise um personagem"
       />
       <div className="flex flex-row flex-wrap justify-around gap-10 py-8">
